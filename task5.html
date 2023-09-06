@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint">
+    <title>
+
+    </title>
+
+</head>
+
+<body>
+    <center>
+        <h2 style="color: blue;">Registration form</h2>
+    </center>
+    <center>
+        <form method="post">
+            <table border>
+                <tr>
+                    <td>First Name</td>
+                    <td><input class="inputwithoutradio" type="text" name="fname" /></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td><input class="inputwithoutradio" type="text" name="lname" /></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input class="inputwithoutradio" type="text" name="email" /></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="text" name="pass" minlength="8" /></td>
+                </tr>
+                <tr>
+                    <td>Re-enter Password</td>
+                    <td><input type="text" name="rpass" minlength="8" /></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender">
+                        <label for="gender">Male</label>
+                        <br>
+                        <hr>
+                        <input type="radio" name="gender">
+                        <label for="gender">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td><input type="number" name="age" /></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="number" name="phn" /></td>
+                </tr>
+                <tr>
+                    <td class="name">
+                        <label for="address">Address</label>
+                    </td>
+                    <td><textarea name="address" class="inputwithoutradio" type="text" cols="25" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>State:</td>
+                    <td><input type="text" name="state" /></td>
+                </tr>
+                <tr>
+                    <td>Country:</td>
+                    <td>
+                        <select name="country">
+                            <option>Choose your country</option>
+                            <option value="ind">India</option>
+                            <option value="china">China</option>
+                            <option value="aus">Australia</option>
+                            <option value="uk">UK</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Languages Known</td>
+                    <td>
+                        <input type="checkbox" name="english" />English
+                        <input type="checkbox" name="kannada" />Kannada
+                        <input type="checkbox" name="hindi" />Hindi
+                        <input type="checkbox" name="Telugu" />Telugu
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="left">
+                        <input class="checkbox" type="checkbox" />Hereby I declare all the given details are true
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right">
+                        Log in to <a href="#">Ethnus </a>Website
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <tr>
+                <td align="center">
+                    <div style="text-align: center;">
+                        <button>Register</button>
+                    </div>
+                </td>
+            </tr>
+            </div>
+        </form>
+</body>
+
+</html>
